@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -29,6 +26,20 @@
                 font-family: Montserrat, sans-serif;
                 font-size: 90%;
         }
+            .quotes {
+            font-family: Eczar, serif; 
+            color: #f0f2f5;
+            font-size: 110%;
+        }
+            .footer {
+                color: #f0f2f5;
+                font-size: 90%;
+        }
+             .domain {
+            background-color: #00c2c7;
+            padding: 20px 10px 0px 20px;
+            text-align: center;
+        }
         </style>
     </head>
     <body>
@@ -36,7 +47,9 @@
             <li class="nav-item">
                 <a class="nav-link active" href="index.html">Home</a>
             </li>
-            <li class="nav-item">jk logo</li>
+            <li class="nav-item">
+                <img src="images/jklogo.png" alt="JK logo" style="max-width: 120px;"></img>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Domains</a>
                 <div class="dropdown-menu">
@@ -47,11 +60,40 @@
             </li>
         </ul>
         <div class="jumbotron jumbotron-fluid" style="background-color:#222222;">
-            <div class="container">
+            <div class="container" style="padding: 25px;">
                 <h1 class="display-4" style="font-family:Montserrat, sans-serif; color:#ffb250">I AM ... A MUSICIAN</h1>
-                <h6 class="lead" style="font-family:Eczar, serif; color:#f0f2f5; font-size: 95%">"Music and rhythm find their way into the secret places of the soul"  ~Plato</h6>
+                <blockquote class="blockquote quotes">
+                    <p class="mb-0">"Music and rhythm find their way into the secret places of the soul"</p>
+                        <footer class="blockquote-footer footer"><em>Plato</em></footer>
+                </blockquote>
             </div>
         <div class="container-fluid main">
-</div>
+            <p>Music and me. When I started and why i started. Why i choose the violin.
+            What have I learn from music? Who inspires me in music.</p>
+            <div class="row">
+                <div class="col">
+                    <img src="images/aesthetic/m17.jpg" alt="Christmas Recital" style="max-width:230px; margin: 5px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                </div>
+                <div class="col">
+                    <video width="220" controls style="margin: 5px;" alt="ABRSM Violin Grade01" class="mx-auto d-block img-thumbnail">
+                        <source src="videos/g1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col">
+                    <img src="images/aesthetic/m19.jpg" alt="Year End Recital" style="max-width:230px; margin: 5px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                </div>
+            </div>
+         </div>
+         <nav class="nav navbar container-fluid domain">
+            <h5>My Journey</h5>
+        </nav>
+         <div class="container-fluid main justify-content-center">
+            <h6 style="font-weight:800;">Year 2020</h6>
+                <p>Music in 2020. My challenges in 2020.</p>
+            <h6 style="font-weight:800;">Year 2019</h6>
+                <p>Music in 2019. My goals for 2020. </p>
+            <h6 style="font-weight:800;">Year 2018</h6>
+                <p>Music in 2018. Distinction in Violin Grade02</p>
+        </div>
     </body>
 </html>
