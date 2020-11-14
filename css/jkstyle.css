@@ -12,7 +12,7 @@
 /* page intro & quotes */
 .intro {
     background-color: #222222;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 .topper {
@@ -44,7 +44,7 @@
     color: #f0f2f5;
     font-family: Montserrat, sans-serif;
     font-size: 90%;
-    padding: 20px 50px 20px 50px;
+    padding: 25px;
     text-align: left;
 }
 /* media */
