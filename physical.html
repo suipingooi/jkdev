@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -12,38 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Montserrat&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/jkstyle.css" rel="stylesheet" type="text/css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <style>
-             .navbar {
-                background-color: #ffb250;
-                font-family: Eczar, serif;
-                font-size: 120%;
-                padding: 15px;
-                color: #222222;
-        } 
-            .main {
-                background-color:#636363;
-                color: #f0f2f5;
-                padding: 20px 20px 20px 20px;
-                font-family: Montserrat, sans-serif;
-                font-size: 90%;
-        }
-            .domain {
-            background-color: #00c2c7;
-            padding: 10px 20px 0px 20px;
-            text-align: center;
-        }
-            .quotes {
-            font-family: Eczar, serif; 
-            color: #f0f2f5;
-            font-size: 110%;
-        }
-            .footer {
-                color: #f0f2f5;
-                font-size: 90%;
-        }
-        </style>
     </head>
     <body>
         <ul class="nav justify-content-center navbar">
@@ -51,7 +19,7 @@
                 <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <img src="images/jklogo.png" alt="JK logo" style="max-width: 120px;"></img>
+                <img id="jklogo" src="images/jklogo.png" alt="JK logo"></img>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Domains</a>
@@ -62,9 +30,9 @@
                 </div>
             </li>
         </ul>
-        <div class="jumbotron jumbotron-fluid" style="background-color:#222222;">
-            <div class="container" style="padding: 25px;">
-                <h1 class="display-4" style="font-family:Montserrat, sans-serif; color:#ffb250">I AM ... A SPARTAN KID</h1>
+        <div class="jumbotron jumbotron-fluid intro">
+            <div class="container intro">
+                <h1 class="topper display-4">I AM ... A SPARTAN KID</h1>
                 <blockquote class="blockquote quotes">
                     <p class="mb-0">"It is exercise alone that supports the spirit and keeps the mind in vigor"</p>
                         <footer class="blockquote-footer footer"><em>Cicero</em></footer>
@@ -86,26 +54,26 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">    
-                        <img src="images/physical/ican.jpg" alt="I'll show you that I Can" style="max-width:230px; margin: 5px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                        <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/physical/ican.jpg" alt="I'll show you that I Can"></img>
                     </div>
                     <div class="col">
-                        <video width="350" controls style="padding: 5px; border: white solid 3px;" alt="Junior Spartan Race" class="mx-auto d-block">
+                        <video class="mx-auto d-block vids" width="350" controls alt="Junior Spartan Race">
                             <source src="videos/spartan.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="col">
-                        <img src="images/physical/excel.jpg" alt="Excellence is an Attitude" style="max-width:230px; margin: 5px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                        <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/physical/excel.jpg" alt="Excellence is an Attitude"></img>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="images/physical/sw5k.jpg" alt="Star Wars 5KM" style="max-width:230px; margin: 5px;"class="rounded mx-auto d-block img-thumbnail"></img>
+                        <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/physical/sw5k.jpg" alt="Star Wars 5KM"></img>
                     </div>
                     <div class="col">
-                        <img src="images/physical/3spartan.jpg" alt="Spartan Kids" style="max-width:340px; margin: 5px;"class="rounded mx-auto d-block img-thumbnail"></img>
+                        <img class="photoH rounded mx-auto d-block img-thumbnail" src="images/physical/3spartan.jpg" alt="Spartan Kids"></img>
                     </div>
                     <div class="col">
-                        <img src="images/physical/rc.jpg" alt="Spider Boy" style="max-width:230px; margin: 5px 0px 10px 0px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                        <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/physical/rc.jpg" alt="Spider Boy"></img>
                     </div>
                 </div>
             </div>
@@ -116,11 +84,11 @@
         </nav>
         <div class="container-fluid main justify-content-center">
             <h6 style="font-weight:800;">Year 2020</h6>
-                <p>The COVID19 pandemic has changed how I continue onwards with my journey in fitness and health. I mostly clock 10km of biking or 5km of running around my neighborhood.</p>
+                <p>The COVID19 pandemic has changed how I continue onwards with my journey in fitness and health. I mostly clock 10km of biking or 5km of running around my neighborhood utilizing strava to keep me in check.</p>
             <h6 style="font-weight:800;">Year 2019</h6>
-                <p>2019 was a year where I ventured into various other sporting activity aside from my training in BJJ and swimming! From team based football and badminton to individual focused such as figure skating and rock climbing. Rock climbing came so naturally to me that I was given the nickname spider-boy!   </p>
+                <p>2019 was a year where I ventured into various other sporting activity aside from my training in BJJ and swimming! From team based football and badminton to individual focused sports such as figure skating and rock climbing. Rock climbing came so naturally to me that I was given the nickname spider-boy!   </p>
             <h6 style="font-weight:800;">Year 2018</h6>
-                <p>I started training in Brazilian Jiu Jitsu (BJJ) as a form of fitness and self defence on top of swimming. I've come to appreaciate that both of these are lifeskills for survival. My most crucial take away from martial arts is its moral and ethical codes of where teachings are based on compassion, bravery, honesty and humility. </p>
+                <p>I started training in Brazilian Jiu Jitsu (BJJ) as a form of fitness and self defence on top of swimming. I've come to appreaciate that both of these are lifeskills for survival. My most crucial take away from BJJ are the values of compassion, bravery, honesty and humility; values which forms the ethics and moral code of this martial art form.  </p>
         </div>
     </body>
 </html>

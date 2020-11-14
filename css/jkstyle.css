@@ -1,0 +1,62 @@
+/* page's navigation bar */
+.navbar {
+    background-color: #ffb250;
+    font-family: Eczar, serif;
+    font-size: 130%;
+    padding: 15px;
+    color: #222222
+}
+#jklogo {
+    max-width: 120px;
+}
+/* page intro & quotes */
+.intro {
+    background-color: #222222;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.topper {
+    font-family:Montserrat, sans-serif; 
+    color:#ffb250
+}
+.quotes {
+    font-family: Eczar, serif; 
+    color: #f0f2f5;
+    font-size: 110%;
+}
+.footer {
+    color: #f0f2f5;
+    font-size: 90%;
+}
+/* sections */
+.domain {
+    background-color: #00c2c7;
+    padding: 20px 30px 10px 30px;
+    text-align: center;
+}
+.icon {
+    width: 80px; 
+    padding: 5px;
+}
+/* mainbody & body */
+.main {
+    background-color:#636363;
+    color: #f0f2f5;
+    font-family: Montserrat, sans-serif;
+    font-size: 90%;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+}
+/* media */
+.photoV {
+    max-width:230px; 
+    margin: 5px;
+}
+.photoH {
+    max-width:340px;
+    margin: 5px;
+}
+.vids {
+    margin: 22px; 
+    border: white solid 3px;
+}
