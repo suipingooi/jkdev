@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -12,31 +8,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Montserrat&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/jkstyle.css" rel="stylesheet" type="text/css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <style>
-             .navbar {
-                background-color: #ffb250;
-                font-family: Eczar, serif;
-                font-size: 120%;
-                padding: 15px;
-                color: #222222;
-        } 
-            .main {
-                background-color:#636363;
-                color: #f0f2f5;
-                padding: 20px 0px 20px 50px;
-                font-family: Montserrat, sans-serif;
-                font-size: 90%;
-        }
-        </style>
     </head>
     <body>
         <ul class="nav justify-content-center navbar">
             <li class="nav-item">
                 <a class="nav-link active" href="index.html">Home</a>
             </li>
-            <li class="nav-item">jk logo</li>
+            <li class="nav-item">
+                <img id="jklogo" src="images/jklogo.png" alt="JK logo"></img>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Domains</a>
                 <div class="dropdown-menu">
@@ -46,12 +29,58 @@
                 </div>
             </li>
         </ul>
-        <div class="jumbotron jumbotron-fluid" style="background-color:#222222;">
-            <div class="container">
-                <h1 class="display-4" style="font-family:Montserrat, sans-serif; color:#ffb250">I AM ... A LOGICIAN</h1>
-                <h6 class="lead" style="font-family:Eczar, serif; color:#f0f2f5; font-size: 95%;">"Learn from yesterday, live for today, hope for tomorrow. The important thing is to not stop questioning"  ~Albert Einstein</h6>
+        <div class="jumbotron jumbotron-fluid intro">
+            <div class="container intro">
+                <h1 class="topper display-4">I AM ... A LOGICIAN</h1>
+                <blockquote class="blockquote quotes">
+                    <p class="mb-0">"Learn from yesterday, live for today, hope for tomorrow. The important thing is to not stop questioning"</p>
+                        <footer class="blockquote-footer footer"><em>Albert Einstein</em></footer>
+                </blockquote>
             </div>
         <div class="container-fluid main">
-</div>
+            <p>Math Olympiad, Coding, Chess</p>
+        </div>
+        <nav class="nav navbar container-fluid domain">
+            <h5>Math Olympiad</h5>
+        </nav>
+        <div class="container-fluid main">
+            <h6 style="font-weight:800;">I am ... a MATHEMATICIAN</h6>
+                <p>Challenges in 2020 math olympiad</p>
+        </div>
+        <nav class="nav navbar container-fluid domain">
+            <h5>Chess</h5>
+        </nav>
+        <div class="container-fluid main">
+            <h6 style="font-weight:800;">Chess is Math</h6>
+                <p>The chess game is all about math! A game played on an eight-by-eight grid system.</p>
+            <div class="row">
+                <div class="col">
+                    <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/cognitive/chess1.jpg" alt="Chess game with dad"></img>
+                </div>
+                <div class="col">
+                    <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/cognitive/chess2.jpg" alt="Finding patterns in chess"></img>
+                </div>
+            </div>
+        </div>
+        <nav class="nav navbar container-fluid domain">
+            <h5 id="coding">Robotics & Coding</h5>
+            <a href="#">My Code Projects</a>
+        </nav>
+        <div class="container-fluid main">
+            <h6 style="font-weight:800;">A CODER, A BUILDER, AN ENGINEER</h6>
+                <p>I can't remmeber when I started building or coding but I remember coding with paper blocks before moving into a series of scratch levels followed by scratch X in the lead up to Phyton Junior. Minecraft Mods forms part of my development in coding and interest in chemistry. I've gained so much from minecraft education that occasionally, I am unable to distinguish between gaming / playing and learning. This is my vulnerability and both my parents and I are in agreement to develop a healthier habit and tactics to manage my difficulty to unplug.
+            <div class="row">
+                <div class="col">
+                    <img class="photoH rounded mx-auto d-block img-thumbnail" src="images/cognitive/code3.jpg" alt="I code games"></img>
+                    <img class="photoH rounded mx-auto d-block img-thumbnail" src="images/cognitive/code1.jpg" alt="Hardware"></img>
+                    <img class="photoH rounded mx-auto d-block img-thumbnail" src="images/cognitive/code2.jpg" alt="Software"></img>
+                </div>
+                <div class="col">
+                    <video class="vids mx-auto d-block" width="300" controls alt="Project Ant">
+                        <source src="videos/mblk.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
