@@ -9,38 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Montserrat&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/jkstyle.css" rel="stylesheet" type="text/css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <style>
-             .navbar {
-                background-color: #ffb250;
-                font-family: Eczar, serif;
-                font-size: 120%;
-                padding: 15px;
-                color: #222222;
-        } 
-            .main {
-                background-color:#636363;
-                color: #f0f2f5;
-                padding: 20px 50px 20px 50px;
-                font-family: Montserrat, sans-serif;
-                font-size: 90%;
-        }
-            .quotes {
-            font-family: Eczar, serif; 
-            color: #f0f2f5;
-            font-size: 110%;
-        }
-            .footer {
-                color: #f0f2f5;
-                font-size: 90%;
-        }
-             .domain {
-            background-color: #00c2c7;
-            padding: 20px 10px 0px 20px;
-            text-align: center;
-        }
-        </style>
     </head>
     <body>
         <ul class="nav justify-content-center navbar">
@@ -48,7 +19,7 @@
                 <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <img src="images/jklogo.png" alt="JK logo" style="max-width: 120px;"></img>
+                <img id="jklogo" src="images/jklogo.png" alt="JK logo"></img>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Domains</a>
@@ -59,41 +30,43 @@
                 </div>
             </li>
         </ul>
-        <div class="jumbotron jumbotron-fluid" style="background-color:#222222;">
-            <div class="container" style="padding: 25px;">
-                <h1 class="display-4" style="font-family:Montserrat, sans-serif; color:#ffb250">I AM ... A MUSICIAN</h1>
+        <div class="jumbotron jumbotron-fluid intro">
+            <div class="container intro">
+                <h1 class="topper display-4">I AM ... A MUSICIAN</h1>
                 <blockquote class="blockquote quotes">
                     <p class="mb-0">"Music and rhythm find their way into the secret places of the soul"</p>
                         <footer class="blockquote-footer footer"><em>Plato</em></footer>
                 </blockquote>
-            </div>
+        </div>
         <div class="container-fluid main">
-            <p>Music and me. When I started and why i started. Why i choose the violin.
-            What have I learn from music? Who inspires me in music.</p>
+            <p>I was intrigued by the sounds created by my older sister who was learning the violin when I was only five. My parents acquiesce to my request for lesson to make music that was just as beautiful and melodius. Truth be told, mom said she had to suffer through some nail screeching phase in the begining. I persevered alongside my violin teacher and mom; learning to manage exam stress and picked up two distinction award along the way! Johann Sebastian Bach inspires me in my musical journey. He is, in my opinion, the best composer ever lived who crafted two of my favourite musical pieces:</p>
+                <ul>Sinfonia in D major BWV 789</ul>
+                <ul>Prelude in C major BWV 846</ul>
             <div class="row">
                 <div class="col">
-                    <img src="images/aesthetic/m17.jpg" alt="Christmas Recital" style="max-width:230px; margin: 5px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                    <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/aesthetic/m17.jpg" alt="Christmas Recital"></img>
                 </div>
                 <div class="col">
-                    <img src="images/aesthetic/m19.jpg" alt="Year End Recital" style="max-width:230px; margin: 5px;" class="rounded mx-auto d-block img-thumbnail"></img>
+                    <img class="photoV rounded mx-auto d-block img-thumbnail" src="images/aesthetic/m19.jpg" alt="Year End Recital"></img>
                 </div>
                 <div class="col">
-                    <video width="250" controls style="margin: 5px; border: solid white 3px;" alt="ABRSM Violin Grade01" class="mx-auto d-block">
+                    <video class="mx-auto d-block vids" width="250" controls alt="ABRSM Violin Grade01">
                         <source src="videos/g1.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
-         </div>
-         <nav class="nav navbar container-fluid domain">
+        </div>
+        <nav class="nav navbar container-fluid domain">
             <h5>My Journey</h5>
         </nav>
-         <div class="container-fluid main justify-content-center">
+        <div class="container-fluid main justify-content-center">
             <h6 style="font-weight:800;">Year 2020</h6>
-                <p>Music in 2020. My challenges in 2020.</p>
+                <p>I call 2020 the year of adaptability! As much as I was excited to finally match my sister at Grade03, I was devastated that examimations was cancelled. However, the lockdown allowed me to shine as being an IT monitor and leader in school has allowed me to transition easily from physical classes to online classes. I am currently preparing myself for Grade04 examinations and will skip Grade03 as per Teacher Teresa's recommendation. As usual, a Christmas recital is a tradition for me. *link to new xmas video* </p>
             <h6 style="font-weight:800;">Year 2019</h6>
-                <p>Music in 2019. My goals for 2020. </p>
+                <p>Music became my solace in 2019. It lifted my spirits when I am down and helped me grieve when I lose my toys or arguments with my sister. Mom said my music has moods that ranges from bouncy light and chirpy to long low vibrato as if i am wailing. I spent 2019 preparing for my Grade03 exam but it was postponed from Nov2019 to March2020 due to examiners' logistics.</p>
             <h6 style="font-weight:800;">Year 2018</h6>
-                <p>Music in 2018. Distinction in Violin Grade02</p>
+                <p>My first violin exam the year before in 2017 was truly my biggest learning moment. It was the first time I became aware of the notion of anxiousness and how difficult it was to maintain control of something as simple as breathing! Having Teacher Teresa coaching me with recitals and calming tactics helped me earned my Distinction. I followed on to earn a second Distinction in 2018.
+                </p>
         </div>
     </body>
 </html>
