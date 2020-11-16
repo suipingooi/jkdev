@@ -27,6 +27,7 @@ Extensive use of Grey and Orange across the platform to convey a clean message o
 <!-- insert typography -->
 Eczar, serif and Montserrat, san-serif were selected as font-pair that is simple and modern yet suggestive of heritage.
 
+A demo of the site can be found here [Who_Am_I?](https://suipingooi.github.io/jkdev/)
 
 ### Features
 
@@ -39,9 +40,10 @@ In this section, you should go over the different parts of your project, and des
 
 #### Features Left to Implement
 
-4. Feature 4: PDF download for a summary of JK's portfolio which will include school's documentation 
-        (Most DSA   school will require result slips of End-of-Year Examination from previous year)
-5. Feature 5: Contact me - email form for request of references.
+4. Feature 4 : A video intro (self intro video) of JK (similar to college/uni application video).
+5. Feature 5 : PDF download for a summary of JK's portfolio which will include school's documentation.
+            (DSA schools require result slips of End-of-Year Examination from previous year)
+6. Feature 6 : Contact me - email form for request of references.
 
 
 ### Technologies Used
