@@ -5,9 +5,10 @@
 ### Project Purpose - Who am I?
 
 Who am I? This is a question that plaque most individual as we grow and adapt throughout our lifetime. It is a "major" question, especially for a child transitioning from childhood to adulthood as they test their boundaries and find their sense of self and identity. This project's aims is twofold.
-    1. Allows JK to develop awareness of his sense of self, organize his thoughts and belief structure as he builds on his character development.
 
-    2. Organizes JK's whole child domain developments into identity groups that will provide educators and school leaders a more comprehensive picture as they consider JK for direct school admission (DSA) into secondary one. 
+1. Allows JK to develop awareness of his sense of self, organize his thoughts and belief structure as he builds on his character development
+
+2. Organizes JK's whole child domain developments into identity groups that will provide educators and school leaders a more comprehensive picture as they consider JK for direct school admission (DSA) into secondary one. 
 
 "Who am I?" is a project with the ultimate goal of placing JK into a secondary school that will fit his personality and the family's values. This is crucial as the teenage stage in secondary school will influence deeply and form the basis of JK's identity as he exits this transitional stage and into adulthood.
 
@@ -32,28 +33,28 @@ Eczar, serif and Montserrat, san-serif were selected as font-pair that is simple
 In this section, you should go over the different parts of your project, and describe each in a sentence or so
 #### Existing Features
 
-    1. Feature 1 : Icon Navigation Bar - allows users to jump to specific interest segments.
-    2. Feature 2 : Drop Down Menu - allows users to go navigate domain segments.
-    3. Feature 3 : Bottom Page Icon Navigation Bar - allows users to return to specific interest segments.
+1. Feature 1 : Icon Navigation Bar - allows users to jump to specific interest segments.
+2. Feature 2 : Drop Down Menu - allows users to go navigate domain segments.
+3. Feature 3 : Bottom Page Icon Navigation Bar - allows users to return to specific interest segments.
 
 #### Features Left to Implement
 
-    1. Feature 4: PDF download for a summary of JK's portfolio which will include school's documentation 
-                (Most DSA   school will require result slips of End-of-Year Examination from previous year)
-    2. Feature 5: Contact me - email form for request of references.
+4. Feature 4: PDF download for a summary of JK's portfolio which will include school's documentation 
+        (Most DSA   school will require result slips of End-of-Year Examination from previous year)
+5. Feature 5: Contact me - email form for request of references.
 
 
 ### Technologies Used
 
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
-    HTML 5.0
-        For the consruction of a user centric front-end 
-    Bootstrap 4.0 Cascading Style Sheet
-        To simplify a flexbox grid layout structure that is able to support multiple viewport sizes and fluidly transition from .
-    JQuery & JavaScript
-        Drop drown menu utilizing Bootstrap
-    Google Fonts
-        Monserrat & Ezcar fonts pairing
+HTML 5.0
+    For the consruction of a user centric front-end 
+Bootstrap 4.0 Cascading Style Sheet
+    To simplify a flexbox grid layout structure that is able to support multiple viewport sizes and fluidly transition from .
+JQuery & JavaScript
+    Drop drown menu utilizing Bootstrap
+Google Fonts
+    Monserrat & Ezcar fonts pairing
 
 ### Testing
 
