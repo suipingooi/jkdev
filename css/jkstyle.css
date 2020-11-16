@@ -7,11 +7,12 @@ body {
     font-family: Eczar, serif;
     font-size: 120%;
     padding: 15px;
-    color: #222222
+    color: #222222;
 }
 .menu {
     border-radius: 20px;
     background-color: #00c2c7;
+
 }
 #jklogo {
     max-width: 120px;
@@ -42,7 +43,13 @@ body {
     background-color: #00c2c7;
     padding: 15px 15px 10px 15px;
     text-align: center;
-    font-size: 90%
+    font-size: 90%;
+}
+.domain > .row {
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .icon {
     width: 50px;
@@ -60,6 +67,15 @@ body {
     padding: 25px;
     text-align: left;
 }
+.navbar > .centra {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main > .centra {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /* media */
 .photoV {
     max-width:230px; 
