@@ -19,11 +19,15 @@ Users of this site are educators, senior teachers and school leaders who are key
 Users will land on JK's mainpage that subvertly calls them to attention with "Who am I?" and a quote by aristotle. This should ingeniously inform them that this site will let them find out more about JK. JK's developmental domains can be explored by clicking on the icon buttons; whilst scrolling down the page, educators are able to view JK's accomplishements / achievements and awards in the past 3 years.
 
 <!-- insert Wireframe images of site's designs -->
+<img src=>
+
 The design of this site aims to be clean, straighforward, organized and uncluttered. The colors and typography used are a personification of JK.
 
+<img src= images/core/colorchart.jpeg>
 <!-- insert color chart -->
 Extensive use of Grey and Orange across the platform to convey a clean message of JK's personality: balance, warmth, enthusiasm, excitement and neutrality. A contrast color of turquoise adds a touch of sophistication that represents his softer side: tranquility, serenity, and wisdom.
 
+<img src= images/core/fontgylps.png>
 <!-- insert typography -->
 Eczar, serif and Montserrat, san-serif were selected as font-pair that is simple and modern yet suggestive of heritage.
 
