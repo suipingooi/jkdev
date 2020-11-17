@@ -91,3 +91,9 @@ body {
     margin: 10px; 
     border: white solid 3px;
 }
+/* buttons */
+.btn {
+    font-family: Montserrat, sans-serif;
+    font-size: 90%;
+    max-width: 120px;
+}
