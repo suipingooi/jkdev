@@ -21,13 +21,14 @@ Users will land on JK's mainpage that subvertly calls them to attention with "Wh
 ![Responsive Web Design Demo](images/core/demo.png)
 
 The design of this site aims to be clean, straighforward, organized and uncluttered. The colors and typography used are a personification of JK.
-<hr>
+
 ![Color Chart](images/core/colorchart.jpeg)
 Extensive use of Grey and Orange across the platform to convey a clean message of JK's personality: balance, warmth, enthusiasm, excitement and neutrality. A contrast color of turquoise adds a touch of sophistication that represents his softer side: tranquility, serenity, and wisdom.
-<br>
+
 ![Font Gylps](images/core/fontgylps.png)
 Eczar, serif and Montserrat, san-serif were selected as font-pair that is simple and modern yet suggestive of heritage.
-<br>
+
+
 A demo of the site can be found here [https://whois.jyskam.sg](https://suipingooi.github.io/jkdev/)
 
 ### Features
