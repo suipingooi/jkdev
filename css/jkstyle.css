@@ -97,3 +97,7 @@ body {
     font-size: 90%;
     max-width: 120px;
 }
+
+a:hover {
+    text-decoration: none;
+}
