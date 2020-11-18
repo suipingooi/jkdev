@@ -78,6 +78,13 @@ body {
 .col {
     padding: 0;
 }
+/* list */
+ul {
+    list-style-type: none;
+}
+li {
+    padding-bottom: 15px;
+}
 /* media */
 .photoV {
     max-width:230px; 
@@ -97,7 +104,6 @@ body {
     font-size: 90%;
     max-width: 120px;
 }
-
 a:hover {
     text-decoration: none;
 }
