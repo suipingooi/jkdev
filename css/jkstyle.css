@@ -81,6 +81,7 @@ body {
 /* list */
 ul {
     list-style-type: none;
+    padding-left: 20px;
 }
 li {
     padding-bottom: 15px;
