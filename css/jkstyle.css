@@ -67,8 +67,8 @@ body {
     max-width: 900px;
     margin: 0 auto;
 }
-#coding {
-    padding-top: 15px;
+#scratch, #strava{
+    padding-top: 12px;
 }
 .icon {
     width: 50px;

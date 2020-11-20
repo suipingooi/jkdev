@@ -14,22 +14,11 @@
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <ul class="nav justify-content-center navbar">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
+       <nav class="nav justify-content-center navbar">
+            <a href="index.html">
                 <img id="jklogo" src="images/jklogo.png" alt="JK logo">
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Domains</a>
-                <div class="dropdown-menu menu">
-                    <a class="dropdown-item" href="physical.html">Physical</a>
-                    <a class="dropdown-item" href="cognitive.html">Cognitive</a>
-                    <a class="dropdown-item" href="aesthetic.html">Aesthetic</a>
-                </div>
-            </li>
-        </ul>
+            </a>
+        </nav>
         <div class="jumbotron jumbotron-fluid intro">
             <div class="container intro">
                 <h1 class="topper display-4">I AM ... A SPARTAN KID</h1>
@@ -81,16 +70,20 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar domain">
+        <section class="container-fluid titlebar">
             <div class="centra">
-                <h5>My Journey</h5>
+                <div class="row">
+                    <div class="col">
+                        <h5 id="strava">My Journey</h5>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-light" href="https://www.strava.com/athletes/51155064" target="_blank">
+                            <img class="icon" src="images/icons/stravalogo.jpg" alt="strava">Workouts
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="centra">
-                <a class="btn btn-light" href="https://www.strava.com/athletes/51155064" target="_blank">
-                    <img class="icon" src="images/icons/stravalogo.jpg" alt="strava">Workouts
-                </a>
-            </div>
-        </nav>
+        </section>
         <div class="container-fluid main">
             <div class="centra">
                 <h6 style="font-weight:800;">Year 2020</h6>
@@ -104,32 +97,32 @@
         <div class="container-fluid domain">
             <div class="row">
                 <div class="col">
-                    <a href="cognitive.html">
+                    <a href="cognitive.html#math">
                         <img class="icon" src="images/icons/math.png" alt="Mathematics">
-                    </a>
+                    </a><br>mathematician
                 </div>
                 <div class="col">
                     <a href="physical.html">
                         <img class="icon" src="images/icons/spartan.png" alt="Spartan">
-                    </a>
+                    </a><br>spartan
                 </div>
                 <div class="col">
                     <a href="index.html">
                         <img class="icon" src="images/jklogo.png" alt="I am JK">
-                    </a>
+                    </a><br>WHO AM I?
                 </div>
                 <div class="col">
                     <a href="cognitive.html#coding">
                         <img class="icon" src="images/icons/code.png" alt="Coding">
-                    </a>
+                    </a><br>coder
                 </div>
                 <div class="col">
                     <a href="aesthetic.html">
                         <img class="icon" src="images/icons/violin.png" alt="Music">
-                    </a>
+                    </a><br>violinist
                 </div>
             </div>
         </div>
-    <footer class="intro footer"> Copyright &copy; 2020 JKDEV. All rights reserved.</footer>
+        <footer class="intro footer"> Copyright &copy; 2020 JKDEV. All rights reserved.</footer>
     </body>
 </html>
