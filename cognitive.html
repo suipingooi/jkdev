@@ -13,22 +13,11 @@
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <ul class="nav justify-content-center navbar">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
+        <nav class="nav justify-content-center navbar">
+            <a href="index.html">
                 <img id="jklogo" src="images/jklogo.png" alt="JK logo">
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Domains</a>
-                <div class="dropdown-menu menu">
-                    <a class="dropdown-item" href="physical.html">Physical</a>
-                    <a class="dropdown-item" href="cognitive.html">Cognitive</a>
-                    <a class="dropdown-item" href="aesthetic.html">Aesthetic</a>
-                </div>
-            </li>
-        </ul>
+            </a>
+        </nav>
         <div class="jumbotron jumbotron-fluid intro">
             <div class="container intro">
                 <h1 class="topper display-4">I AM ... A LOGICIAN</h1>
@@ -36,6 +25,28 @@
                     <p class="mb-0">"Learn from yesterday, live for today, hope for tomorrow. The important thing is to not stop questioning"</p>
                         <footer class="blockquote-footer footer"><em>Albert Einstein</em></footer>
                 </blockquote>
+            </div>
+        </div>
+        <div class="container-fluid domain">
+            <div class="row">
+                <div class="col" title="A MATHEMATICIAN">
+                    <a href="#math">
+                        <img class="icon" src="images/icons/math.png" alt="A Mathematician">
+                        <br>Mathematician
+                    </a>
+                </div>
+                <div class="col" title="A CODER">
+                    <a href="#coding">
+                        <img class="icon" src="images/icons/code.png" alt="A Coder">
+                        <br>Coder
+                    </a>
+                </div>
+                <div class="col" title="A GAMER">
+                    <a href="#chess">
+                        <img class="icon" src="images/icons/gamer.png" alt="A Gamer">
+                        <br>Gamer
+                    </a>
+                </div>
             </div>
         </div>
         <div class="container-fluid main">
@@ -54,30 +65,31 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar domain">
+        <section class="container-fluid titlebar">
             <div class="centra">
-                <h5>Math Olympiad</h5>
+                <h5 id="math">Math Olympiad</h5>
             </div>
-            <div class="centra"></div>
-            <div class="centra"></div>
-        </nav>
+        </section>
         <div class="container-fluid main">
             <div class="centra">
                 <h6 style="font-weight:800;">A MATHEMATICIAN in the making</h6>
                     <p>I am fascinated by numbers and its rules and orders since young; yet it has never occured to me that Math Olympiad is a path I would venture down. It was in 2018 that I tried it on a whim and it was thrilling to say the least. The move for online competition in 2020 posed multiple challenges but with a silver lining: more international students could now compete as they do not need to travel to Singapore for the competition. SIMOC was my favourite as I met many like minded kids from around the world.</p>
             </div>
         </div>
-        <nav class="navbar domain">
-            <div class="centra">
-                <h5 id="coding">Robotics & Coding</h5>
+        <section class="container-fluid titlebar">
+            <div class="centra">    
+                <div class="row">
+                    <div class="col">    
+                        <h5 id="coding">Robotics &amp; Coding</h5>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-light" href="https://scratch.mit.edu/users/tech6jamie/" target="_blank">
+                            <img class="icon" src="images/icons/scratchlogo.jpg" alt="MIT Scratch"><br>Projects
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="centra"></div>
-            <div class="centra">
-                <a class="btn btn-light" href="https://scratch.mit.edu/users/tech6jamie/" target="_blank">
-                    <img class="icon" src="images/icons/scratchlogo.jpg" alt="MIT Scratch">Projects
-                </a>
-            </div>
-        </nav>
+        </section>
         <div class="container-fluid main">
             <div class="centra">
                 <h6 style="font-weight:800;">A CODER, A BUILDER, AN ENGINEER</h6>
@@ -96,13 +108,11 @@
                 </div>
             </div>
         </div>
-         <nav class="navbar domain">
+        <section class="container-fluid titlebar">
             <div class="centra">
-                <h5>Chess</h5>
+                <h5 id="chess">Chess</h5>
             </div>
-            <div class="centra"></div>
-            <div class="centra"></div>
-        </nav>
+        </section>
         <div class="container-fluid main">
             <div class="centra">
                 <h6 style="font-weight:800;">A GAMER and budding CHESSMASTER</h6>
@@ -125,27 +135,27 @@
                 <div class="col">
                     <a href="cognitive.html">
                         <img class="icon" src="images/icons/math.png" alt="Mathematics">
-                    </a>
+                    </a><br>mathematician
                 </div>
                 <div class="col">
                     <a href="physical.html">
                         <img class="icon" src="images/icons/spartan.png" alt="Spartan">
-                    </a>
+                    </a><br>spartan
                 </div>
                 <div class="col">
                     <a href="index.html">
                         <img class="icon" src="images/jklogo.png" alt="I am JK">
-                    </a>
+                    </a><br>WHO AM I?
                 </div>
                 <div class="col">
                     <a href="cognitive.html#coding">
                         <img class="icon" src="images/icons/code.png" alt="Coding">
-                    </a>
+                    </a><br>coder
                 </div>
                 <div class="col">
                     <a href="aesthetic.html">
                         <img class="icon" src="images/icons/violin.png" alt="Music">
-                    </a>
+                    </a><br>violinist
                 </div>
             </div>
         </div>

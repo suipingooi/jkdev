@@ -6,8 +6,8 @@ body {
     background-color: #ffb250;
     font-family: Eczar, serif;
     font-size: 120%;
-    padding: 15px;
     color: #222222;
+    padding: 15px 15px 10px 35px;
 }
 .navbar > .centra {
     max-width: 900px;
@@ -19,7 +19,7 @@ body {
 
 }
 #jklogo {
-    max-width: 120px;
+    max-width: 90px;
 }
 /* page intro & quotes */
 .intro {
@@ -34,7 +34,7 @@ body {
 .quotes {
     font-family: Eczar, serif; 
     color: #f0f2f5;
-    font-size: 110%;
+    font-size: 150%;
 }
 .footer {
     font-family: Montserrat, sans-serif; 
@@ -55,6 +55,21 @@ body {
     justify-content: center;
     margin: 0 auto;
 }
+.titlebar {
+    background-color: #00c2c7;
+    padding: 15px 15px 10px 35px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    vertical-align: middle;
+    align-items: center;
+}
+.titlebar > .centra {
+    max-width: 900px;
+    margin: 0 auto;
+}
+#coding {
+    padding-top: 15px;
+}
 .icon {
     width: 50px;
 }
@@ -68,15 +83,17 @@ body {
     color: #f0f2f5;
     font-family: Montserrat, sans-serif;
     font-size: 90%;
-    padding: 25px 25px 25px 45px;
+    padding: 25px;
     text-align: left;
 }
 .main > .centra {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .col {
     padding: 0;
+    font-size: 80%;
+    vertical-align: auto;
 }
 /* list */
 ul {
@@ -89,7 +106,7 @@ li {
 /* media */
 .photoV {
     max-width:230px; 
-    margin: 5px;
+    margin: 3px;
 }
 .photoH {
     max-width:300px;
@@ -102,9 +119,11 @@ li {
 /* buttons */
 .btn {
     font-family: Montserrat, sans-serif;
-    font-size: 90%;
+    font-size: 80%;
     max-width: 120px;
+    margin: 2px;
 }
 a:hover {
     text-decoration: none;
+    
 }
