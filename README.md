@@ -18,6 +18,7 @@ Users of this site are educators, senior teachers and school leaders who are **k
 Users will land on JK's mainpage that subvertly calls them to attention with "Who am I?" and a quote by aristotle. This should ingeniously inform them that this site will let them find out more about JK. JK's developmental domains can be explored by clicking on the icon buttons; whilst scrolling down the page, educators are able to view JK's accomplishements / achievements and awards in the past 3 years.
 ![Responsive Web Design Demo](images/core/demo.png)
 The design of this site aims to be clean, straighforward, organized and uncluttered. The colors and typography used are a personification of JK.
+
 ![Color Chart](images/core/colorchart.jpeg)
 Extensive use of Grey and Orange across the platform to convey a clean message of JK's personality: balance, warmth, enthusiasm, excitement and neutrality. A contrast color of turquoise adds a touch of sophistication that represents his softer side: tranquility, serenity, and wisdom.
 ![Font Gylps](images/core/fontgylps.png)
@@ -28,17 +29,16 @@ A demo of the site can be found here [https://whoami.jyskam.sg](https://suipingo
 ## Features
 
 This site features 3 developmental domain page:
-1. Physical Domain
+1. Physical Domain - I AM A SPARTAN KID
     * covers physical development including health and wellness; a link to strava is included that will show JK's recent workouts.
-2. Cognitive Domain
+2. Cognitive Domain - I AM A LOGICIAN
     * covers his primary interest - STEM (Science, Technology, Engineering and Mathematics); a link to scratch is included.
-3. Aesthetic Domain
+3. Aesthetic Domain _ I AM A MUSICIAN
     * covers JK's secondary interest - music(violin)
 
 #### Existing Features
-1. Feature 1 : Icon Navigation Bar - allows users to jump to specific interest segments.
-2. Feature 2 : Drop Down Menu - allows users to go navigate between domain page.
-3. Feature 3 : Bottom Page Icon Navigation Bar - allows users to quickly return to specific interest segments.
+1. Feature 1 : Icon Navigation Bar - allows users to jump to specific identity domain.
+3. Feature 2 : Bottom Page Icon Navigation Bar - allows users to quickly return to specific interest segments.
 
 #### Features Left to Implement
 4. Feature 4 : A video intro (self intro video) of JK (similar to college/uni application video).
@@ -52,8 +52,6 @@ This site features 3 developmental domain page:
     * For the consruction of a user centric front-end webpage
 2. Bootstrap 4.0 Cascading Style Sheet
     * To simplify a flexbox grid layout structure to be responsive according to viewport sizes. 
-3. JQuery & JavaScript
-    * Support for Bootstrap's drop-down menu
 4. Google Forms [https://fonts.google.com/](https://fonts.google.com/)
     * Support for contact-me form
 5. Gimp 2.10 [https://www.gimp.org/](https://www.gimp.org/)
@@ -61,14 +59,16 @@ This site features 3 developmental domain page:
 
 ## Testing
 
-A demo link [https://whoami.jyskam.sg](https://suipingooi.github.io/jkdev/) was sent to JK's grandparents and extended family for testing outside of Singapore. This was done for the following reasons:
-    1. JK's grandparents have not visited since the Covid19 lockdown and this demo site allows for them to catch up on his development in the past year.
-    2. They are also aged with limited IT experience which allows a guage on intuitive UI/UX ability whilst on a variety of devices (ipad, iphone, samsung mobile and huawei mobile) 
-    3. Their location in Malaysia with possibly slower internet connection also allows a check on media capability.
-Some of the feedback received: 
-    1. "maybe coder link should link to a page of its own with a I AM... A CODER instead of to a section to the first link under Olympian. Just a suggestion so it keeps it consistent across Olympian, Spartan, Coder and Musician"
-    2. "I didn't reach any dead links"
-As they are not the actual target audience with knowledge of developmental domains, the above feedback was not acted upon.
+The demo link [https://whoami.jyskam.sg](https://suipingooi.github.io/jkdev/) was sent to JK's grandparents and extended family for testing outside of Singapore. This was done for the following reasons:
+1. JK's grandparents have not visited since the Covid19 lockdown and this demo site allows for them to catch up on his development in the past year.
+2. They are also aged with limited IT experience which allows a guage on intuitive UI/UX ability whilst on a variety of devices (ipad, iphone, samsung mobile and huawei mobile) 
+3. Their location in Malaysia with possibly slower internet connection also allows a check on media capability.
+
+Suggestions were taken into account and amendments made.
+
+[W3C Validator](https://validator.w3.org/) testing was done for all html files. All errors corrected and suggestion for language included. 
+
+[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) testing was done for css file. No error was found.
 
 ## Deployment
 
