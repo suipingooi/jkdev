@@ -97,11 +97,15 @@ A demo of this development is deployed on Github Pages. Deployment was uneventfu
 JK logo designed and produced by Kaytrinh Kam
 
 Testing of demo site on Github Pages:
+
 **Singapore**
+
 * Ms. Helen Tan - VP, Singapore Primary School
 * Mr. Kam KahKen - Advisor, IvyPrep
 * Mr. Ooi Kok Jin 
+
 **Malaysia**
+
 * Mdm. Susie Khoo
 * Ms. SuZen Chan
 * Mdm. Aster Wong
