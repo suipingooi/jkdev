@@ -24,26 +24,29 @@ Extensive use of Grey and Orange across the platform to convey a clean message o
 ![Font Gylps](images/core/fontgylps.png)
 Eczar, serif and Montserrat, san-serif were selected as font-pair that is simple and modern yet suggestive of heritage.
 
-A demo of the site can be found on [https://suipingooi.github.io/jkdev/](https://suipingooi.github.io/jkdev/)
+A demo of the site can be found here [https://suipingooi.github.io/jkdev/](https://suipingooi.github.io/jkdev/)
 
 ## Features
 
-This site features 3 developmental domain page:
-1. Physical Domain - I AM A SPARTAN KID
+This site features the following developmental domains:
+1. Physical Domain (my sport) - I AM A SPARTAN KID
     * covers physical development including health and wellness; a link to strava is included that will show JK's recent workouts.
-2. Cognitive Domain - I AM A LOGICIAN
+2. Cognitive Domain (my forte) - I AM A LOGICIAN
     * covers his primary interest - STEM (Science, Technology, Engineering and Mathematics); a link to scratch is included.
-3. Aesthetic Domain _ I AM A MUSICIAN
+3. Aesthetic Domain (my niche) - I AM A MUSICIAN
     * covers JK's secondary interest - music(violin)
+4. Achievement & Accomplishment
 
 #### Existing Features
-1. Feature 1 : Icon Navigation Bar - allows users to jump to specific identity domain.
-3. Feature 2 : Bottom Page Icon Navigation Bar - allows users to quickly return to specific interest segments.
+1. Feature 1 : Highlights hover to indicate clickable icons
+2. Feature 2 : Icon Navigation Bar - allows users to jump to specific developmental domains. 
+3. Feature 3 : Mouseover pop-up that answers "Who Am I?" according to domains ie, A spartan, A logician, A Musician, A Leader.
+4. Feature 4 : A grayed out link for visited pages for better navigational experience.
 
 #### Features Left to Implement
-4. Feature 4 : A video intro (self intro video) of JK (similar to college/uni application video).
-5. Feature 5 : PDF download for a summary of JK's portfolio which will include school's documentation. DSA schools require result slips of End-of-Year Examination from previous year. (current existing link is functional but will download a sample pdf instead of his portfolio pdf)
-6. Feature 6 : Contact me - email form for request of references.
+5. Feature 4 : A video intro (self intro video) of JK (similar to college/uni application video).
+6. Feature 5 : PDF download for a summary of JK's portfolio which will include school's documentation. DSA schools require result slips of End-of-Year Examination from previous year. (current existing link is functional but will download a sample pdf instead of his portfolio pdf)
+7. Feature 6 : Contact me - email form for request of references.
 (current existing link opens a google form request)
 
 
@@ -55,7 +58,8 @@ This site features 3 developmental domain page:
 4. Google Forms [https://fonts.google.com/](https://fonts.google.com/)
     * Support for contact-me form
 5. Gimp 2.10 [https://www.gimp.org/](https://www.gimp.org/)
-    * Image manipulation
+    * Image manipulation - cropping and adding transparency to icon created with keynote icons.
+
 
 ## Testing
 
@@ -81,10 +85,12 @@ A demo of this development is deployed on Github Pages. Deployment was uneventfu
     * font-family: 'Eczar', serif;
     * font-family: 'Montserrat', sans-serif;
 2. Bootstrap CSS, JS & JQuery
+3. Keynote - icons library
 
 #### Media
-1. Strava Logo retrieved from [Strava Press](blog.strava.com/press/assets) on 17 Nov 2020.
-2. Scratch Logo retrieved from [Scratch](https://scratch.mit.edu/) on 18 Nov 2020.
+1. Spartan Logo retrieved from [Spartan Kids](https://www.spartan.com/products/spartan-kids-vinyl-sticker?variant=1165456736281) on 10 Nov 2020.
+2. Strava Logo retrieved from [Strava Press](blog.strava.com/press/assets) on 17 Nov 2020.
+3. Scratch Logo retrieved from [Scratch](https://scratch.mit.edu/) on 18 Nov 2020.
 
 #### Acknowledgements
 
