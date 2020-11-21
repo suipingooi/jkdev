@@ -43,6 +43,7 @@ body {
     padding: 15px 15px 10px 15px;
     text-align: center;
     font-size: 90%;
+    color: white;
 }
 .domain > .row {
     max-width: 900px;
@@ -62,7 +63,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
 }
-#scratch, #strava{
+#scratch, #strava, #achieve {
     padding-top: 12px;
 }
 .icon {
@@ -71,6 +72,20 @@ body {
 .icon:hover {
     width: 50px; 
     opacity: 70%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+.linkbtn {
+    padding-right: 30px;
 }
 /* mainbody & body */
 .main {
@@ -86,7 +101,7 @@ body {
     margin: 0 auto;
 }
 .col {
-    padding: 5px;
+    padding: 3px;
     font-size: 80%;
 }
 /* list */
@@ -116,8 +131,4 @@ li {
     font-size: 80%;
     max-width: 120px;
     margin: 2px;
-}
-a:hover {
-    text-decoration: none;
-    
 }
