@@ -15,7 +15,8 @@ Users of this site are educators, senior teachers and school leaders who are **k
 
 ## UX - User Experience
 
-Users will land on JK's mainpage that subvertly calls them to attention with "Who am I?" and a quote by aristotle. This should ingeniously inform them that this site will let them find out more about JK. JK's developmental domains can be explored by clicking on the icon buttons; whilst scrolling down the page, educators are able to view JK's accomplishements / achievements and awards in the past 3 years.
+Users will land on JK's mainpage that subvertly calls them to attention with "Who am I?" and a quote by aristotle. This should ingeniously inform them that this site will let them find out more about JK. JK's developmental domains can be explored by clicking on the icon buttons.
+
 ![Responsive Web Design Demo](images/core/demo.png)
 The design of this site aims to be clean, straighforward, organized and uncluttered. The colors and typography used are a personification of JK.
 
@@ -44,9 +45,9 @@ This site features the following developmental domains:
 4. Feature 4 : A grayed out link for visited pages for better navigational experience.
 
 #### Features Left to Implement
-5. Feature 4 : A video intro (self intro video) of JK (similar to college/uni application video).
-6. Feature 5 : PDF download for a summary of JK's portfolio which will include school's documentation. DSA schools require result slips of End-of-Year Examination from previous year. (current existing link is functional but will download a sample pdf instead of his portfolio pdf)
-7. Feature 6 : Contact me - email form for request of references.
+5. Feature 5 : A video intro (self intro video) of JK (similar to college/uni application video).
+6. Feature 6 : PDF download for a summary of JK's portfolio which will include school's documentation. DSA schools require result slips of End-of-Year Examination from previous year. (current existing link is functional but will download a sample pdf instead of his portfolio pdf)
+7. Feature 7 : Contact me - email form for request of references.
 (current existing link opens a google form request)
 
 
@@ -73,6 +74,11 @@ Suggestions were taken into account and amendments made.
 [W3C Validator](https://validator.w3.org/) testing was done for all html files. All errors corrected and suggestion for language included. 
 
 [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) testing was done for css file. No error was found.
+
+**Unresolved Issues**
+
+Visted links does not gray out on mobile (specifically iphone11). A check was also done on two(2) samsung phones running chrome as well as macbook running safari - no issues found with change in color for visted links for these devices.
+
 
 ## Deployment
 
