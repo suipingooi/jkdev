@@ -7,16 +7,11 @@ body {
     font-family: Eczar, serif;
     font-size: 120%;
     color: #222222;
-    padding: 15px 15px 10px 35px;
+    padding: 15px;
 }
 .navbar > .centra {
     max-width: 900px;
     margin: 0 auto;
-}
-.menu {
-    border-radius: 20px;
-    background-color: #00c2c7;
-
 }
 #jklogo {
     max-width: 90px;
@@ -75,7 +70,7 @@ body {
 }
 .icon:hover {
     width: 50px; 
-    opacity: 80%;
+    opacity: 70%;
 }
 /* mainbody & body */
 .main {
@@ -91,7 +86,7 @@ body {
     margin: 0 auto;
 }
 .col {
-    padding: 0;
+    padding: 5px;
     font-size: 80%;
 }
 /* list */
