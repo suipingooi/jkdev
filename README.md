@@ -24,7 +24,7 @@ Extensive use of Grey and Orange across the platform to convey a clean message o
 ![Font Gylps](images/core/fontgylps.png)
 Eczar, serif and Montserrat, san-serif were selected as font-pair that is simple and modern yet suggestive of heritage.
 
-A demo of the site can be found here [https://whoami.jyskam.sg](https://suipingooi.github.io/jkdev/)
+A demo of the site can be found on [https://suipingooi.github.io/jkdev/](https://suipingooi.github.io/jkdev/)
 
 ## Features
 
@@ -59,7 +59,7 @@ This site features 3 developmental domain page:
 
 ## Testing
 
-The demo link [https://whoami.jyskam.sg](https://suipingooi.github.io/jkdev/) was sent to JK's grandparents and extended family for testing outside of Singapore. This was done for the following reasons:
+The demo link via [Github Pages](https://suipingooi.github.io/jkdev/) was sent to JK's grandparents and extended family for testing outside of Singapore. This was done for the following reasons:
 1. JK's grandparents have not visited since the Covid19 lockdown and this demo site allows for them to catch up on his development in the past year.
 2. They are also aged with limited IT experience which allows a guage on intuitive UI/UX ability whilst on a variety of devices (ipad, iphone, samsung mobile and huawei mobile) 
 3. Their location in Malaysia with possibly slower internet connection also allows a check on media capability.
@@ -72,11 +72,8 @@ Suggestions were taken into account and amendments made.
 
 ## Deployment
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku). -->
+A demo of this development is deployed on Github Pages. Deployment was uneventful.
 
-<!-- In particular, you should provide all details of the differences between the deployed version and the development version -->
-
-<!-- In addition, if it is not obvious, you should also describe how to run your code locally. -->
 ## Credits
 
 #### Content
@@ -91,4 +88,15 @@ Suggestions were taken into account and amendments made.
 
 #### Acknowledgements
 
-JK logo designed and produced by Kaytrinh Kam.
+JK logo designed and produced by Kaytrinh Kam
+
+Testing of demo site on Github Pages:
+**Singapore**
+* Ms. Helen Tan - VP, Singapore Primary School
+* Mr. Kam KahKen - Advisor, IvyPrep
+* Mr. Ooi Kok Jin 
+**Malaysia**
+* Mdm. Susie Khoo
+* Ms. SuZen Chan
+* Mdm. Aster Wong
+* Mr. Kam Pak Cheong
