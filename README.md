@@ -55,8 +55,9 @@ This site features the following developmental domains:
 1. HTML 5.0
     * For the consruction of a user centric front-end webpage
 2. Bootstrap 4.0 Cascading Style Sheet
-    * To simplify a flexbox grid layout structure to be responsive according to viewport sizes. 
-4. Google Forms [https://fonts.google.com/](https://fonts.google.com/)
+    * To simplify flexbox grid layout structure to be responsive according to viewport sizes.
+    * Button classes
+4. Google Forms [https://docs.google.com/forms](https://docs.google.com/forms)
     * Support for contact-me form
 5. Gimp 2.10 [https://www.gimp.org/](https://www.gimp.org/)
     * Image manipulation - cropping and adding transparency to icon created with keynote icons.
@@ -71,13 +72,13 @@ The demo link via [Github Pages](https://suipingooi.github.io/jkdev/) was sent t
 
 Suggestions were taken into account and amendments made.
 
-[W3C Validator](https://validator.w3.org/) testing was done for all html files. All errors corrected and suggestion for language included. 
+[W3C Validator](https://validator.w3.org/) testing was done for all html files. All errors corrected and suggestion for language included. No errors found at last deployment.
 
 [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) testing was done for css file. No error was found.
 
 **Unresolved Issues**
 
-Visted links does not gray out on mobile (specifically iphone11). A check was also done on two(2) samsung phones running chrome as well as macbook running safari - no issues found with change in color for visted links for these devices.
+Visted links does not gray out on mobile (specifically iphone11). A check was also done on two(2) samsung phones running chrome as well as macbook pro running safari - no issues found with change in color for visted links for these devices. Further testing required.
 
 
 ## Deployment
@@ -87,10 +88,11 @@ A demo of this development is deployed on Github Pages. Deployment was uneventfu
 ## Credits
 
 #### Content
-1. Google Fonts
+1. Bootstrap CSS & JS from [https://getbootstrap.com/](https://getbootstrap.com/)
+2. Google Fonts from [https://fonts.google.com/](https://fonts.google.com/)
     * font-family: 'Eczar', serif;
-    * font-family: 'Montserrat', sans-serif;
-2. Bootstrap CSS, JS & JQuery
+    * font-family: 'Montserrat', sans-serif
+4. Color Chart from [https://color.adobe.com/create](https://color.adobe.com/create)
 3. Keynote - icons library
 
 #### Media
@@ -100,7 +102,7 @@ A demo of this development is deployed on Github Pages. Deployment was uneventfu
 
 #### Acknowledgements
 
-JK logo designed and produced by Kaytrinh Kam
+JK logo designed and produced by *Kaytrinh Kam*
 
 Testing of demo site on Github Pages:
 
